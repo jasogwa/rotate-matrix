@@ -6,7 +6,7 @@
     "scripts": {
         "build": "rm -rf build/ && prettier --write ./ && tsc",
         "lint": "eslint .",
-        "test": "ts-mocha tests/*.ts"
+        "test": "ts-mocha ./*.ts"
     },
     "keywords": [],
     "author": "",
