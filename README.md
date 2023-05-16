@@ -16,5 +16,9 @@ then rotate it around the center and finally converts it back to an array.
 ## RUN
 `node build/src/cli.js input.csv > output.csv`
 
+## Output to screen
+`node build/src/cli.js input.csv`
+
+
 ## Test
 `npm test`
