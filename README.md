@@ -15,7 +15,7 @@ then rotate it around the center and finally converts it back to an array.
 
 `npm run build`
 
-## RUN
+## Output to CSV
 
 `node cli.js input.csv > output.csv`
 
