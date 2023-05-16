@@ -98,10 +98,20 @@ function rotateTables(inputFile) {
                 json: table.json,
                 is_valid: table.is_valid
             });
+            console.log({
+                id: table.id,
+                json: table.json,
+                is_valid: table.is_valid
+            });
         }
         csvStream.end();
     });
 }
 exports.rotateTables = rotateTables;
 const inputFile = process.argv[2];
-rotateTables(inputFile);
+if (!inputFile) {
+    console.error('Please provide the path to the input CSV file.');
+}
+else {
+    rotateTables(inputFile);
+}
