@@ -11,6 +11,8 @@ then rotate it around the center and finally converts it back to an array.
 
 `npm install`
 
+`npm i --global mocha`
+
 ## Build
 
 `npm run build`
@@ -25,4 +27,4 @@ then rotate it around the center and finally converts it back to an array.
 
 ## Test
 
-`npm test`
+`mocha`
