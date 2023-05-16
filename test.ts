@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import * as fastCsv from 'fast-csv';
 import { expect } from 'chai';
 
-import { rotateTables } from '../src/cli';
+import { rotateTables } from './cli';
 
 describe('Rotate Tables', () => {
     const inputFile = 'input.csv';
